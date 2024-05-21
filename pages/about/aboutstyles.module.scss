@@ -1,0 +1,431 @@
+.titleTxt2 {
+  display: flex;
+  justify-content: flex-start !important;
+  padding: 10% 0; /* Adjust top and bottom padding as needed */
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-bottom: 2px solid #000; /* Adjust the thickness and color of the underline */
+}
+.titleTxt3 {
+  display: flex;
+  justify-content: flex-start !important;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2%;
+  margin-top: -20%;
+  margin-bottom: 2%;
+}
+
+.titleTxt4 {
+  display: flex;
+  justify-content: flex-start !important;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2%;
+}
+
+.descTxt {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+.mainDesDiv {
+  padding: 2%;
+}
+
+.dividerLeft {
+  margin-left: 5%;
+}
+
+.mainDivider {
+  border-color: #565656a4;
+  margin-top: 5%;
+  border: 1px solid rgba(128, 128, 128, 0.576);
+  margin-bottom: 5%;
+
+}
+
+// .valueCards {
+//   display: flex;
+//   justify-content: space-between;
+//   height: 100%;
+//   overflow-x:hidden !important;
+// }
+
+
+// /* Define styles for the card container */
+// .valueCard1 {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 20px;
+//   border: 1px solid #e0e0e0;
+//   border-radius: 12px;
+//   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   background-color: rgb(228, 228, 228);
+//   width: 400px;
+//   padding: 2%;
+// }
+
+// .vcicon {
+//   width: 60px;
+//   /* Set icon size */
+//   height: 60px;
+//   /* Set icon size */
+//   margin-bottom: 10px;
+//   /* Spacing between icon and title */
+// }
+
+// /* Styles for the title */
+// .vctitle {
+//   color: #303030;
+//   text-align: center;
+//   font-family: Montserrat;
+//   font-size: 26px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: normal;
+//   /* Spacing between title and description */
+// }
+
+// /* Styles for the description */
+// .vcDesc {
+//   color: #303030;
+//   font-family: Montserrat;
+//   font-size: 20px;
+//   font-style: normal;
+//   font-weight: 300;
+//   line-height: normal;
+//   margin-top: 18%;
+// }
+
+.valueCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styles for individual value cards */
+.valueCard1 {
+  text-align: center;
+  padding: 2%;
+  width: 427px;
+  height: 509px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #E4E4E4;
+}
+
+/* Image styles */
+.vcicon {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+/* Title styles */
+.vctitle {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.vcDesc {
+  font-size: 20px;
+  text-align: left;
+  font-family: Montserrat;
+  color: #303030;
+  overflow: hidden !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Define the classes in your CSS */
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  /* You can directly use values */
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+}
+
+.cell {
+  padding: 8px;
+}
+
+.title {
+  flex-basis: 40%;
+  margin-right: 20px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: bold;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.description {
+  flex-basis: 60%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300 !important;
+  line-height: normal;
+}
+
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  border-bottom-left-radius: 15px; /* Rounded bottom corners */
+  border-bottom-right-radius: 15px; /* Rounded bottom corners */
+  border-radius: 15px 15px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .titleTxt2 {
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 2%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .titleTxt3 {
+    display: flex;
+    justify-content: flex-start !important;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .titleTxt4 {
+    display: flex;
+    justify-content: flex-start !important;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 2%;
+  }
+
+  .descTxt {
+    font-size: 18px;
+    /* Font size for mobile */
+    margin-bottom: 10px;
+    /* Spacing between paragraphs */
+  }
+
+  .mainDesDiv {
+    padding: 10px;
+    /* Adjust padding for mobile */
+  }
+
+  /* Ensure that the cards stack vertically on smaller screens */
+  // .valueCards {
+  //   flex-direction: column;
+  //   height: auto;
+  //   padding: 4%;
+  // }
+
+  // /* Adjust the width of the card for mobile */
+  // .valueCard1 {
+  //   width: 90%; /* Adjust as needed */
+  //   margin-bottom: 20px;
+  // }
+
+  // /* Adjust the icon size for mobile */
+  // .vcicon {
+  //   width: 40px;
+  //   height: 40px;
+  //   margin-bottom: 8px;
+  // }
+
+  // /* Adjust the title styles for mobile */
+  // .vctitle {
+  //   font-size: 18px;
+  //   line-height: 1.2;
+  //   margin-bottom: 5px;
+  // }
+
+  // /* Adjust the description styles for mobile */
+  // .vcDesc {
+  //   font-size: 16px;
+  //   line-height: 1.5;
+  //   margin-top: 10px;
+  // }
+
+  .valueCard1 {
+    text-align: center;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #E4E4E4;
+  }
+
+
+  .table {
+    width: 100%;
+    padding: 3%;
+  }
+
+  .row {
+    flex-direction: column;
+    flex-basis: 40%;
+    margin-right: 20px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .title {
+    flex-basis: 40%;
+    margin-right: 18px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .description {
+    flex-basis: 100%;
+    margin-right: 0;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+
+  .footer {
+    width: 100%;
+  }
+}

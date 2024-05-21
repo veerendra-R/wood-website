@@ -1,0 +1,576 @@
+@import url('https://fonts.googleapis.com/css?family=Niramit:300,300i,700');
+
+
+// // about css
+.titleTxt2 {
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 1% 0; /* Adjust top and bottom padding as needed */
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    max-width: 100%;
+    width: 100%;
+    line-height: normal;
+    text-align: left;
+    margin-top: 4%;
+    // border-bottom: 2px solid #000; /* Adjust the thickness and color of the underline */
+}
+  
+  
+  .descTxt {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    gap: 20px;
+  }
+  
+  
+  .mainDesDiv {
+    padding: 2%;
+  }
+  
+  .dividerLeft {
+    margin-left: 5%;
+  }
+  
+  .mainDivider {
+    border-color: #565656a4;
+    margin-top: 5%;
+    border: 1px solid rgba(128, 128, 128, 0.576);
+    margin-bottom: 5%;
+  
+  }
+  
+  
+  .valueCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      width: 100%;
+      overflow-y: scroll;
+      padding: 4%;
+    }
+  }
+  
+  /* Styles for individual value cards */
+  .valueCard1 {
+    text-align: center;
+    padding: 2%;
+    width: calc(50% - 10px); /* Two cards in a row with 20px gap */
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #E4E4E4;
+  
+    @media (max-width: 768px) {
+      width: 100%; /* Full width on smaller screens */
+      margin-bottom: 20px; /* Add some space between cards */
+    }
+  }
+  
+  /* Image styles */
+  .vcicon {
+    width: 80px;
+    height: 80px;
+    object-fit: scale-down;
+    margin-bottom: 15px;
+  }
+  
+  /* Title styles */
+  .vctitle {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .vcDesc {
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-family: Montserrat;
+    color: #303030;
+    overflow: hidden;
+  }
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+// //   service page
+
+.SubTitles{
+    display: flex;
+    text-align: left;
+    line-height: normal;
+    font-weight: 600;
+    font-family: Montserrat;
+
+}
+  
+  
+  
+.contactBtn{
+    display: inline-flex;
+    padding: 6px 14px 7px 10px;
+    align-items: center;
+    border-radius: 70px;
+    border: 1px solid #5E5E5E;
+    align-self: flex-start;
+    font-size:medium;
+    font-family: Montserrat;
+    cursor: pointer;
+    justify-content:center !important;
+    position: sticky !important;
+    gap: 20px;
+    background: #1A3643;
+    color: #fff;
+    margin-bottom: 2%;
+  }
+  .arrowSignOMob{
+    rotate: 320deg;
+  }
+
+  .mainDesDivCntct{
+    justify-content: center;
+    background-image: url('../../public/joinusHome.svg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+    height: auto;
+    .SubTitles{
+      color: white;
+      display: flex;
+      justify-content: center;
+      padding: 3%;
+    }
+  }
+  .imageOverlay {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    
+  }
+  
+  .SubTitle2{
+    margin:5% 0% 0% 0% ;
+    display: flex;
+    text-align: left;
+    line-height: normal;
+    font-weight: 500;
+    font-family: Montserrat;
+  }
+  
+  
+  
+
+
+// reset some browser default styles
+// colors
+$primary: #fff;
+$secondary: #4f537b;
+$info: #11cdef;
+$success: #00bf9a;
+$warning: #ff8d72;
+$danger: #fd5d93;
+
+// timeline variables
+$body-bg: #1e1e2f;
+$timeline-before-bg : #222a42;
+$timeline-body-bg: #96F4FF;
+$timeline-body-round: 3px;
+$timeline-body-shadow: 1px 3px 9px rgba(0,0,0, .1);
+
+.container {
+    max-width: 100%;
+    // margin: 50px auto;
+    padding: 0 15px; // Add padding for mobile
+    box-sizing: border-box;
+
+    @media (min-width: 576px) {
+        max-width: 100%;
+    }
+
+    @media (min-width: 768px) {
+        max-width:100%;
+    }
+
+    @media (min-width: 992px) {
+        max-width: 100%;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 100%;
+    }
+}
+
+.timeline {
+    color: #000;
+    position: relative;
+    padding-left: 4rem;
+    margin: 0 0 0 30px;
+    font-family: Montserrat;
+
+
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 3px;
+        height:90%;
+        background: $timeline-body-bg;   //line colour
+    }
+
+    .timelineContainer {
+        position: relative;
+        margin-bottom: 2.5rem;
+
+        .timelineIcon {
+            position: absolute;
+            left: -88px;
+            top: 4px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 2rem;
+            background: $secondary;
+
+            .svg {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+        .timelineBody {
+            // background: $timeline-body-bg;
+            border-radius: $timeline-body-round;
+            padding: 20px 20px 15px;
+            // box-shadow: $timeline-body-shadow;
+
+            &:before {
+                content: '';
+                background: inherit;
+                width: 20px;
+                height: 20px;
+                display: block;
+                position: absolute;
+                left: -10px;
+                transform: rotate(45deg);
+                border-radius: 0 0 0 2px;
+            }
+
+            .timelineTitle {
+                margin-bottom: 1.4rem;
+
+                .badge {
+                    background: $secondary;
+                    padding: 4px 8px;
+                    border-radius: 3px;
+                    font-size: 12px;
+                    font-weight: bold;
+                }
+            }
+
+            .timelineSubtitle {
+                font-weight: 300;
+                font-style: italic;
+                opacity: .4;
+                margin-top: 16px;
+                font-size: 11px;
+            }
+        }
+
+        // Primary Timeline
+        &.primary {
+            .badge,
+            .timelineIcon {
+                background: $primary !important;
+            }
+        }
+
+        // Info Timeline
+        &.info {
+            .badge,
+            .timelineIcon {
+                background: $info !important;
+            }
+        }
+
+        // Success Timeline
+        &.success {
+            .badge,
+            .timelineIcon {
+                background: $success !important;
+            }
+        }
+
+        // Warning Timeline
+        &.warning {
+            .badge,
+            .timelineIcon {
+                background: $warning !important;
+            }
+        }
+
+        // Danger Timeline
+        &.danger {
+            .badge,
+            .timelineIcon {
+                background: $danger !important;
+            }
+        }
+    }
+}
+
+
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .titleTxt2 {
+      display: flex;
+      justify-content: flex-start !important;
+      // padding: 2%;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      font-weight: 600;
+      width: 325px !important;
+      max-width: 100% !important;
+      text-align: left;
+    }
+  
+  
+
+  
+    .descTxt {
+      font-size: 18px;
+      /* Font size for mobile */
+      margin-bottom: 10px;
+      /* Spacing between paragraphs */
+    }
+  
+    .mainDesDiv {
+      padding: 0% !important;
+
+      /* Adjust padding for mobile */
+    }
+  
+
+  }
+
+
+
+//   //contact css
+
+  /* Styles for contactMain2 */
+.contactMain2 {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  .tagline {
+    color: #666;
+    font-size: 18px;
+    bottom: 2%;
+    text-align: center;
+  }
+  .mainContainer {
+    margin: 0 auto; 
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  /* Styles for contactContainer */
+  .contactContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  /* Styles for contactDetailsDiv and children */
+  .contactDetailsDiv {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 4%;
+    margin-bottom: auto;
+    display: flex;
+    vertical-align: middle !important;
+    font-size: 25px;
+    width: 100%;
+  }
+  
+  .inquiryForm {
+    flex-basis: 70%;
+    height: 100%;
+    max-width: 40%;
+    padding: 3%;
+    background-color: #F6F6F6;
+    flex-shrink: 0;
+    margin: 5%;
+    border-radius: 10px;
+    position: sticky !important;
+    // display: flex;
+    padding-top: 10%;
+    justify-content: center!important;
+    top: 0;
+    overflow-y: auto;
+    margin-bottom: 2%;
+  }
+
+
+
+  .title{
+    color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  .title2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10%;
+  }
+  .desc{
+    color: #444;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  }
+  
+//   /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .contactDetailsDiv {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: initial;
+        margin-bottom: 20px;
+    }
+    
+
+    .contactContainer,.inquiryForm {
+        display: block;
+        width: 100% !important;
+        max-width: 90% !important;
+      }
+    .mainDesDivCntct{
+        display: block;
+        text-align: center;
+        // padding: 2%;
+        background-image: url('../../public/joinusHome.svg');
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
+       
+        .SubTitles{
+          color: white;
+          text-align: center;
+        }
+      }
+    .SubTitles{
+      display: flex;
+      text-align: left;
+      margin-bottom: 2%;  
+    }
+    .mainContainer {
+      width: 100%;
+      background-color: #fff;
+    }
+    .contactContainer {
+        width: 100%;
+        max-width: 100%;
+        padding: 2%;
+    }
+    
+      
+  }

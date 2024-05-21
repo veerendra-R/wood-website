@@ -1,0 +1,2496 @@
+.mainFilter {
+  justify-content: center;
+  display: inline-grid;
+  width: -webkit-fill-available;
+  // width: 100%;
+  margin-top: 1%;
+
+  :where(.css-dev-only-do-not-override-1adbn6x).ant-space-compact-block {
+    // background-color: red !important;
+    // color: red;
+  }
+  .ant-radio-button-wrapper{
+    width:400px
+  }
+}
+.FilterTxt{
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 6px;
+  margin-top: -16px;
+  line-height: normal;
+}
+
+.formInput{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  width: 100%;
+}
+.divider{
+  border: 1px solid #282f5318 ;
+  margin-top: 5%;
+}
+
+.homeMainContainer::-webkit-scrollbar {
+  width: 5px !important;
+  border-radius: 5px;
+}
+
+.homeMainContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(121, 122, 168, 0.884) !important;
+  border-radius: 10px !important;
+}
+
+.homeMainContainer::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(87, 89, 172, 0.884) !important;
+  border-radius: 10px !important;
+  background-color: #282f53 !important;
+}
+
+.HeroPageImgae {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.cmgMain{
+  height:100%;
+  width:100%;  
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index: 0;
+  text-align:center; 
+  // margin-top: 10%;
+  // background-color:  #2E3192;
+}
+.cmgTitle{
+  text-align:center;
+  text-transform: uppercase;
+  color: #2e3192; 
+  font-size: 49px;
+  font-weight: 400;
+  line-height: 61.25px;
+  font-family: Montserrat;
+}
+.roller{
+  height:     9rem;
+  line-height: 10rem;
+  position: relative;
+  overflow: hidden; 
+  // width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1D3557;
+}
+.spareTime{
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: 1rem;
+  margin-top: 0;
+  color: #10b0b5;
+
+}
+.roller .rollerText {
+  display: block;
+  flex-direction: column-reverse;
+  align-items:center;
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;  
+}
+@keyframes slide {
+  0% {
+    top: 0rem;
+  }
+  25% {
+    top: -10rem;
+  }
+  50% {
+    top: -20rem;
+  }
+  75% {
+    top: -30rem;
+  }
+  100% {
+    top: -40rem;
+  }
+}
+
+.knowmoreBtn{
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+.mainContainer {
+  min-height: 1vh !important;
+  overflow-x: scroll !important;
+}
+
+.collapseButton {
+  color: #2e3192 !important;
+}
+
+.footerStyle {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  background-color: #fff;
+  margin-top: 10%;
+}
+.mainLand {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(95%);
+  margin-top: -10%;
+
+}
+.mainLand2{
+  background-color: #fff;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  filter: brightness(95%);
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: center;
+  justify-content: flex-end;
+  color: black;
+}
+.cmgMain{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center; 
+  font-family: Montserrat;
+  // margin-top: -1%;
+  color: #1D3557;
+}
+.cmgTitle{
+  text-align: center;
+  color: #fff;
+  font-size: 49px;
+  font-family: Montserrat;
+  margin-top: -75%;
+  z-index: 1;
+
+}
+.roller{
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbfbfc;
+}
+.spareTime{
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: 1rem;
+  margin-top: 0;
+  color: #fff;
+
+}
+.roller .rollerText {
+  display: block;
+  flex-direction: column-reverse;
+  align-items:center;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;  
+  font-family: "Vina Sans";
+}
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -4rem;    
+  }
+  50%{
+    top: -8rem;
+  }
+  72.5%{
+    top: -12.25rem;
+  }
+}
+
+
+.CarouselTextContainer {
+  position: absolute;
+  top: 10% !important;
+  // left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  overflow: hidden;
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 80px;
+  margin-bottom: 5% !important;
+  font-weight: 500;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  // animation: slide-up 2s ease-in-out infinite; 
+  transform: translateY(100%);
+}
+
+.mobileMenu{
+  display: flex;
+  justify-content:space-between;
+  background-color:white;
+  padding: 2%;
+  // background: rgba(255, 255, 255, 0.60);
+
+  // margin-top: -1.5%;
+  width: 100% !important;
+  // margin-left: -3%;
+}
+.mobileLogo{
+  margin-left: -1%;
+}
+
+.CarouselImage {
+  width: 100%;
+  height: 78vh; /* Adjust this value as needed */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.CarouselImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+}
+
+
+.mainDiv{
+max-width: 101% !important;
+}
+
+.CarouselDiv {
+  /* Add styles for the main carousel container if needed */
+}
+
+.CarouselItem {
+  position: relative;
+}
+
+.downNav{
+  cursor: pointer;
+  background: linear-gradient(to left, rgba(26, 54, 67, 1) 0%, #000 100%);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  color: white;
+  height: 12vh;
+  display: flex;
+  justify-content: center;
+  z-index: 1 !important;
+  margin-top: -1%;
+  .NavIcon{
+  transform: rotate(90deg);
+  font-size: xx-large;
+  }
+
+}
+.topStayDesc{
+  display: grid;
+  width: 100%;
+  padding: 2%;
+  .titleTxt{
+    padding: 5%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 25%;
+  }
+  .desctopStayTxt{
+    color: #000;
+    width: 100%;
+    margin-top: 50%;
+    // padding: 5%;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+  }
+  .viewMorebBtn{
+    padding: 6%;
+    margin-top: -30%;
+  }
+  .arrowSign{
+    rotate: 320deg;
+    font-size:large;
+  }
+}
+.bestStayDesc{
+  // display: grid;
+  // width: 40%;
+  display: grid;
+  width: 40%;
+  .titleTxt{
+    padding: 10%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+  }
+  .descTxt{
+    color: #000;
+    width: 70%;
+    margin-top: -20%;
+    padding: 10%;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: initial;
+  }
+  .viewMorebBtn{
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+    margin-left: -25%;
+  }
+  .arrowSign{
+    rotate: 320deg;
+    font-size:large;
+  }
+
+}
+.titleTxt2{
+  display: flex;
+  justify-content: center !important;
+  width: 100% !important;
+  padding: 1%;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  // margin-top: 25%;
+}
+.descTxt2{
+  color: #000;
+  width: 100%;
+  padding: 0%;
+  margin-bottom: 4%;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 100 !important;
+  display: flex;
+  justify-content: center;
+}
+.descTxt3{
+  color: #000;
+  width: 100%;
+  padding: 0%;
+  margin-bottom: 4%;
+  font-family: Montserrat;
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 100 !important;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.bestStayDesc2{
+  display: contents;
+  width: 100%;
+  padding:1%;
+
+}
+.arrowSignOMob{
+  rotate: 320deg;
+  font-size:large;
+}
+.viewMorebBtnMob{
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutHydrabad{
+  display: flex;
+  justify-content: center;
+  .abtHydTile{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+.abtHydImg{
+  display: flex;
+  justify-content: center;
+}
+.abdHydDesc{
+  margin-top: -1%;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  display: flex;
+  text-align: left;
+  padding: 4%;
+  background-color:  rgba(26, 54, 67, 1);
+  justify-content: center !important;
+}
+.hyTopSpotsMain{
+  display: flex;
+  justify-content: center;
+  .hyTopSpots{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+.cardstopStays{
+  display: flex;
+  justify-content: space-between !important;
+}
+.footerImage{
+  display: block;
+  width: 100%;
+  justify-content: center;
+}
+.titleTxt4{
+  margin-top: 2%;
+  color: #FFF;
+  display: block;
+  font-family: Montserrat;
+  font-size: 40px;
+  width: 100% !important;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.descTxt4{
+  color: #FFF;
+  width: 100% !important;
+  font-family: Montserrat;
+  font-size: 49px;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  line-height: normal;
+}
+.footerImage {
+  position: relative;
+  background: url("../../public/vacationFooter.png");
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-repeat:repeat;
+  height: 20%;
+  width: 100%;
+}
+
+.footerImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.footerImage .titleTxt4,
+.footerImage .descTxt4 {
+  position: relative;
+  z-index: 1; 
+  text-align: center;
+  width: 100%; 
+  padding: 2%;
+}
+.footerMain{
+  display: flex;
+  z-index: 1 !important;
+  height: 100%;
+  height: 38vh;
+  background-color:  rgba(26, 54, 67, 1);
+  .abdHydDesc2{
+    margin-top: -1%;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    text-align: left;
+    background-color:  rgba(26, 54, 67, 1);
+    justify-content: center !important;
+    // border-top-right-radius: 20%;
+    // border-top-left-radius: 20%;
+  }
+}
+.viewMorebBtn4{
+  padding: 2%;
+  margin-bottom: 4% !important;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2%;
+  margin-left: 20%;
+  margin-bottom: 2%;
+  color: #FFF !important;
+}
+.contactUsBtn{
+  color: #000;
+  font-family: Montserrat;
+  :where(.css-1adbn6x).ant-btn-default{
+    background-color: none !important;
+  }
+
+}
+.arrowSign4{
+  rotate: 320deg;
+  font-size:large;
+  color: #000 !important;
+  font-family: Montserrat;
+}
+.contactMianTitle{
+  font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+    width: 34%;
+    padding: 3%;
+}
+.secondHalfFooter{
+  display: flow;
+  width: 40%;
+  padding: 2%;
+.email{
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+  padding: 3%;
+}
+.icons{
+  margin-right: 4px;
+}
+.email_logo{
+  display: flex;
+  justify-content: space-between;
+  // font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 500;
+  color: #fff;
+  width: 10%;
+  padding: 5%;
+}
+}
+.thirdHalfFooter{
+  display: grid;
+  width: 20%;
+  padding: 3%;
+  .email{
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    padding: 3%;
+  }
+  .linkMain{
+    display: block;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 10%;
+    padding: 3%;
+  }
+  .link{
+    display: block;
+    // font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 100;
+    color: #fff;
+    margin-left: 10%;
+    padding: 3%;
+  }
+}
+.socialIcons{
+  display: flex;
+  justify-content: space-evenly;
+  color: #fff;
+  font-size: 29px;
+
+}
+.footerStyle{
+  text-align:center;
+  color: #FFF;
+  background-color:  rgba(26, 54, 67, 1);;
+  margin-bottom:0px;
+  height: 5vh;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  margin-block: 0;
+  font-size: large;
+  margin-top: -10px !important;
+  .footerLogo{
+    font-size: 70px
+
+  }
+}
+.linksTxt{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 250;
+  line-height: normal;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.cntctDeatilsAndLinks{
+  display: grid;
+  padding: 4%;
+  align-items: center;
+  line-height: 24%;
+}
+.cntctDeatilsAndLinks1{
+  display: grid;
+  padding: 4%;
+  margin-left: 10%;
+  align-items: center;
+  line-height: 24%;
+}
+.cntctDeatilsAndLinks3{
+  display: grid;
+}
+.footerTxta1{
+  font-size: 35px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+.footerTxta2{
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
+.footerTxta3{
+  font-size: 35px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  font-family: Montserrat;
+
+}
+
+.insidePropertyTitle{
+  display: flex;
+  justify-content: center !important;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .DescriptionTxt{
+    overflow-y:scroll !important;
+    height: 15vh;
+  }
+  .mainFilter {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: -121%;
+
+    :where(.css-dev-only-do-not-override-1adbn6x).ant-space-compact-block {
+      // background-color: red !important;
+      // color: red;
+    }
+  }
+
+.downNav{
+  // background: linear-gradient(to left, rgba(26, 54, 67, 0.3) 0%, rgba(26, 54, 67, 1) 95%), rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to left, rgba(26, 54, 67, 1) 5%, #000 100%);
+  cursor: pointer;
+  color: white;
+  height: 10vh;
+  margin-top: -30%;
+  display: flex;
+  justify-content: center;
+  z-index: 0 !important;
+  .NavIcon{
+  transform: rotate(90deg);
+  font-size: xx-large;
+  }
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+}
+  .mainContainer {
+    min-height: auto !important;
+    overflow-x: auto !important;
+  }
+  .mainDiv{
+    max-width: 98% !important;
+    // height: 100vh;
+  }
+  .FilterTxt{
+    display: flex;
+    justify-content: center;
+    text-align: center !important;
+    font-size: large;
+    font-family: Montserrat;
+  }
+  .CarouselDiv {
+    height: 90vh;
+    padding: 0%;
+    width: 101% !important;
+    // border: 2px solid blue;
+    /* Add styles for the main carousel container if needed */
+  }
+
+  .collapseButton {
+    color: #2e3192 !important;
+  }
+
+  .footerStyle {
+    margin-top: 5%;
+  }
+
+  .mainLand {
+    // background: red;
+    // height: 90vh;
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    filter: brightness(95%);
+  }
+  .mainLand2{
+    background-color: #fff;
+    // height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    filter: brightness(95%);
+    margin-top: -0%;
+  }
+
+  .cmgMain {
+    margin-top: -10%;
+  }
+  .cmgTitle{
+    text-align: center;
+    color: #fff;
+    font-size: large;
+    font-family: Montserrat;
+    z-index: 1;
+    margin-top: -270%;
+    display: flex;
+    // position: fixed;
+    justify-content: center;
+
+  }
+  .roller .rollerText {
+    font-size: 1.5rem; /* Adjusted font size */
+    animation-duration: 4s; /* Adjusted animation duration */
+    }
+    .CarouselItem {
+      position: relative;
+      // height: 20vh;
+    }
+    .CarouselImage {
+      height: 84vh;
+      width:100%;
+      display: flex;
+      justify-content: center;
+    }
+    .CarouselImage::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    }
+
+    .CarouselTextContainer {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      overflow: hidden;
+      font-family:Montserrat;
+      color: #fff;
+      font-size: 45px;
+      justify-content: center;
+      display: flex;
+      line-height: 112.5x;
+      text-align: center;
+      font-weight: 800;
+
+    }
+    .downNav{
+      cursor: pointer;
+      background: linear-gradient(to left, rgba(26, 54, 67, 1) 0%, #000 100%);
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      color: white;
+      height: 10vh;
+      margin-top: -16%;
+      width: 102%;
+      display: flex;
+      justify-content: center;
+      z-index: 1 !important;
+      .NavIcon{
+      transform: rotate(90deg);
+      font-size: xx-large;
+      }
+
+    }
+
+    .bestStayDesc{
+      display: grid;
+      width: 100%;
+      padding: 2%;
+      .titleTxt{
+        // padding: 5%;
+        width: 100%;
+        color: #000;
+        display: flex;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height:normal;
+        margin-bottom: 4%;
+        // margin-top: 25%;
+      }
+      .descTxt{
+        display: flex;
+        justify-content: flex-end;
+        color: #000;
+        width: 100%;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 300 !important;
+        line-height: normal;
+      }
+
+      .arrowSign{
+        rotate: 320deg;
+        font-size:large;
+      }
+
+    }
+
+    .arrowSignOMob{
+      rotate: 320deg;
+      font-size:18px;
+    }
+    .topStayDesc{
+      display: block;
+      width: 100%;
+      margin-top: -10%;
+      padding:5%;
+      .titleTxt{
+        padding: 5%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 25%;
+      }
+      .desctopStayTxt{
+        color: #000;
+        width: 100%;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: normal;
+      }
+
+      .arrowSign{
+        rotate: 320deg;
+        font-size:large;
+      }
+    }
+
+    .aboutHydrabad{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 8%;
+      .abtHydTile{
+        font-family: Montserrat;
+        font-size: 18px;
+        margin-bottom: 5%;
+        font-weight: 500;
+        display: flex;
+        justify-content: center !important;
+      }
+    }
+    .abtHydImg{
+      display: flex;
+      justify-content: center;
+      width: 100% !important;
+    }
+    .abdHydDesc{
+      margin-top: -1%;
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+      color: #fff;
+      display: flex;
+      padding: 8%;
+      text-align: left;
+      background-color:  rgba(26, 54, 67, 1);
+      justify-content: center !important;
+    }
+    .hyTopSpotsMain{
+      display: flex;
+      justify-content: center;
+      .hyTopSpots{
+        padding: 5%;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 6%;
+        display: flex;
+        justify-content: center !important;
+      }
+    }
+    .titleTxt2{
+      display: flex;
+      justify-content: center !important;
+      width: 100% !important;
+      padding: 8%;
+      color: #000;
+      font-family: Montserrat;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      // margin-top: 25%;
+    }
+    .descTxt2{
+      color: #000;
+      display: flex;
+      justify-content: flex-start;
+      width: 90%;
+      padding: 8%;
+      margin-bottom: 4%;
+      margin-top: -12%;
+      font-family: Montserrat;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 100 !important;
+      display: flex;
+      justify-content: center;
+    }
+    .descTxt3{
+      color: #000;
+      display: flex;
+      justify-content: flex-start;
+      width: 90%;
+      padding: 8%;
+      text-align:left;
+      margin-bottom: 4%;
+      margin-top: -8%;
+      font-family: Montserrat;
+      font-size: 18px;
+      line-height: 20px;
+      font-weight: 100 !important;
+      display: flex;
+      justify-content: center;
+    }
+
+    .bestStayDesc2{
+      display: contents;
+      width: 100%;
+      padding:1%;
+
+    }
+    .arrowSignOMob{
+      rotate: 320deg;
+      font-size:large;
+    }
+    .viewMorebBtnMob{
+      margin-top: 8%;
+      display: flex;
+      justify-content: center;
+    }
+    .footerImage {
+      position: relative;
+      background: url("../../public//vacationFooter.png");
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      height: 18vh;
+      width: 100%;
+    }
+
+    .footerImage::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+    }
+    .footerImage .titleTxt4,
+    .footerImage .descTxt4 {
+      position: relative;
+      z-index: 1; 
+    }
+    .titleTxt4{
+      color: #FFF;
+      display: block;
+      justify-content: center;
+      text-align: center;
+      font-family: Montserrat;
+      font-size: 25px;
+      width: 100% !important;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .descTxt4{
+      color: #FFF;
+      width: 100% !important;
+      font-family: Montserrat;
+      font-size: 20px;
+      font-style: normal;
+      display: block;
+      justify-content: center;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .footerMain{
+      display: block;
+      background-color:  rgba(26, 54, 67, 1);
+      padding: 5%;
+      width: 99%;
+      .abdHydDesc2{
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 500;
+        color: #fff;
+        display: flex;
+        text-align: left;
+        background-color:  rgba(26, 54, 67, 1);
+        justify-content: center !important;
+      }
+    }
+
+    .viewMorebBtn4{
+      padding: 2%;
+      margin-left: -5%;
+      font-family: Montserrat;
+      display: flex;
+      justify-content: center;
+      color: #FFF !important;
+      margin-top: 10%;
+    }
+    .contactUsBtn{
+      color: #000;
+      font-family: Montserrat;
+      :where(.css-1adbn6x).ant-btn-default{
+        background-color: none !important;
+      }
+
+    }
+    .arrowSign4{
+      rotate: 320deg;
+      font-size:large;
+      color: #000 !important;
+      font-family: Montserrat;
+    }
+    .contactMianTitle{
+      font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        color: #fff;
+        width: 30%;
+        padding: 8%;
+    }
+    .secondHalfFooter{
+      display: flex;
+      justify-content: space-between;
+      width: 80%;
+      padding: 0%;
+    .email{
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 500;
+      color: #fff;
+      width: 100%;
+      padding: 5%;
+    }
+    .icons{
+      margin-right: 4px;
+    }
+    .email_logo{
+      display: flex;
+      justify-content: space-between;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 100;
+      color: #fff;
+      width: 10%;
+      padding: 5%;
+    }
+    }
+    .thirdHalfFooter{
+      display: inline-grid;
+      width: 100%;
+      padding: 0;
+      .email{
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        padding: 5%;
+      }
+      .link{
+        font-family: Montserrat;
+        font-size: 15px;
+        font-weight: 100;
+        color: #fff;
+        margin-left: 5%;
+        // padding: 3%;
+      }
+      .socialIcons{
+        display: flex;
+        font-family: Montserrat;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 30px;
+        padding: 2%;
+
+      }
+      .socialIcons{
+        display: flex;
+        font-family: Montserrat;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 30px;
+        padding: 2%;
+
+      }
+    }
+    .divider{
+      border: 1px solid #282f5318 ;
+      margin-top: 8%;
+      margin-bottom: 20%;
+
+    }
+    .footerTxta1{
+      font-weight: 500;
+      color: #fff;
+      font-size: 20px;
+      font-family: Montserrat;
+    }
+    .footerTxta2{
+      font-size: 15px;
+      font-weight: 500;
+      color: #fff;
+      margin-bottom: 1%;
+    }
+    .footerTxta3{
+      font-size: 20px;
+      font-weight: 500;
+      color: #fff;
+      font-size: 20px;
+      font-family: Montserrat;
+
+    }
+    .insidePropertyTitle{
+      display: flex;
+      justify-content: center !important;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// // -------------------------------------------------------------
+.carousel {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 10vh);
+  /* Fill viewport height minus 10vh */
+  overflow: hidden;
+  display: flex;
+}
+
+.h1Txt {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.carouselSlide {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  flex: 1 0 100%;
+  position: relative;
+}
+
+.carouselSlide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 2s ease-in-out;
+}
+
+.carouselOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  opacity: 0;
+  // transition: opacity 2s ease-in-out;
+}
+
+.carouselSlide.active {
+  opacity: 1;
+}
+
+.carouselSlide.active img {
+  opacity: 1;
+}
+
+.carouselSlide.active .carouselOverlay {
+  opacity: 1;
+}
+.carouselTitle {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transform: translateY(0);
+  text-transform: uppercase;
+  animation: slideLeft 2s infinite; /* Adjust the duration as needed */
+}
+
+@keyframes slideLeft {
+  0%, 20%, 100% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  25%, 75% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  80% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+
+.scrollingWordsContainer{
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 10%;
+}
+.scrollingWordsBox{
+
+  height: 5rem;
+  font-family: Montserrat;
+  text-transform: uppercase;
+  font-size: 90px;
+  margin: auto;
+  overflow: hidden;
+  
+  ul {
+    margin: 0 0.625rem;
+    padding: 0;
+    animation: scrollUp 8s  infinite;
+    li {
+      display: flex;
+      color: #fff;
+      align-items: center;
+      justify-content: flex-end;
+      height: 5rem;
+      list-style: none; 
+    }
+  }
+}
+
+// Variables
+$item-count: 5;
+
+@keyframes scrollUp {
+  @for $i from 1 through ($item-count - 1) {
+    #{($i * 25) - 10%}, #{$i * 25%} {
+      transform: translateY((-100% / $item-count) * $i);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// @keyframes slideUp {
+//   0%, 25%, 100% {
+//     opacity: 0;
+//     transform: translateY(50%);
+//   }
+//   30%, 70% {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+//   75% {
+//     opacity: 0;
+//     transform: translateY(-50%);
+//   }
+// }
+
+.carouselSlide.active .carouselOverlay {
+  // transform: translateY(0);
+  /* Slide-up effect */
+}
+
+.scrollDown {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.scrollDown i {
+  font-size: 24px;
+  color: #fff;
+}
+
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.toggleGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+.toggleContainer {
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid white;
+  background-color: white;
+  padding: 2px;
+  overflow: hidden;
+  width: 100%;
+  /* Adjust width as needed */
+  margin: 0 auto;
+  transition: transform 0.3s ease-in-out;
+
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+  }
+}
+
+.toggleButton {
+  width: 432px;
+  /* Button width */
+  padding: 15px 0;
+  /* Adjust padding as needed */
+  font-size: 18px;
+  /* Adjust font size as needed */
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  color: #000;
+  font-size: large;
+  font-family: Montserrat;
+  flex: 1;
+  transition: background-color 0.3s ease-in-out;
+  border-radius: 15px ;
+
+  &:hover {
+    background-color: #eee;
+  }
+
+  &.active {
+    background-color: #1A3643 !important;
+    color: #fff;
+
+  }
+
+  &:first-child {
+    // border-right: 1px solid #ccc;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 125px;
+    /* Adjust button width for smaller screens */
+    padding: 12px 0;
+    /* Adjust padding for smaller screens */
+    font-size: 16px;
+    /* Adjust font size for smaller screens */
+    border-radius: 10px;
+
+  }
+}
+
+// .toggleButton:nth-child(1) {
+//   transform: translateX(0%);
+// }
+
+// .toggleButton:nth-child(2) {
+//   transform: translateX(0%);
+// }
+
+// .toggleButton.active:nth-child(1) {
+//   transform: translateX(0%);
+// }
+
+// .toggleButton.active:nth-child(2) {
+//   transform: translateX(0%);
+// }
+
+
+.imageContainer3 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  background-image: url('../../public/joinusHome.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+.scrollIconMainDiv {
+  position: absolute;
+  width: 100%;
+  background-color: #081d26;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  justify-content: center !important;
+  display: flex;
+
+  
+}
+
+/* Style for the scroll icon */
+.scrollIcon {
+  position: absolute;
+  bottom: 20px;
+  /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: gray;
+  z-index: 2;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  align-items: center;
+  width: 100%;
+}
+
+.textSection {
+  flex: 0 0 25% !important;
+  /* 30% width for text section */
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.viewMoreButton {
+  display: inline-flex;
+  padding: 6px 14px 7px 10px;
+  align-items: center;
+  gap: 5px;
+  border-radius: 70px;
+  border: 1px solid #5E5E5E;
+  align-self: flex-start;
+  font-size:larger;
+  cursor: pointer;
+  justify-content:center !important;
+}
+
+.viewMoreButtonBottom{
+  display: flex;
+    padding: 1cqb;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50px;
+    border: 1px solid #5E5E5E;
+    align-self: flex-start;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center !important;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.cardContainer {
+  flex: 1;
+  /* Take remaining space */
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  /* Add padding to avoid horizontal scrollbar overlap */
+  justify-content: center;
+}
+
+.customCard {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.cardImage {
+  width: 315px;
+  height: 372px ;
+  /* Increased height of the card */
+  object-fit: cover;
+}
+
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  /* Text color */
+  text-align: center;
+  /* Center align text */
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  /* Faded gradient overlay */
+}
+
+.cardTitle {
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.mainTitle {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.descriptionTitle {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: -1%;
+
+}
+.arrowSignOMob{
+  rotate: 320deg;
+}
+
+.scrollContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.cardContainer2 {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 10px
+}
+.customCard2 {
+  cursor: pointer;
+  /* Your card styles */
+  flex: 0 0 auto; /* Ensures cards stay in one row */
+  margin-right: 10px; /* Adjust the margin between cards */
+}
+.bestContainer{
+  padding: 4%;
+}
+.scrollButton {
+  position: absolute;
+  margin-top: 12%;
+  transform: translateY(-50%);
+  padding: 8px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7); /* Button background color */
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.scrollButton:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Button background color on hover */
+}
+
+.scrollButton:first-child {
+  left: 1%;
+}
+
+.scrollButton:last-child {
+  right: 1%;
+}
+.imageTitle {
+  color: #000;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;/* Larger font size for title on bigger screens */
+}
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: -4%;
+}
+.imageDescription {
+  font-family: Montserrat;
+  font-size: 25px; /* Description font size */
+  display: flex;
+  justify-content: flex-start;
+  padding: 4%;
+  background-color: #1A3643;
+  color: #fff;
+  font-family: Montserrat;
+  line-break: auto;
+  text-align: left;
+}
+
+.cardContainer3 {
+  flex: 1;
+  width: 100%;
+  overflow-x: scroll !important;
+  display:-webkit-inline-box;
+  width: 100%;
+  padding-bottom: 20px;
+  padding: 4%;
+  justify-content: center;
+}
+
+.customCard3 {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.textSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; /* Center align text by default */
+}
+
+.mainTitle1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.descriptionTitle1 {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: 8px; /* Adjust margin as needed */
+}
+.occationContaner {
+  padding: 4% 4% 0; /* Padding top, right, and left set to 4%, bottom set to 0 */
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px; /* Adjust margin as needed */
+}
+
+.col {
+  flex: 0 0 50%; /* Two cards per row for mobile */
+  max-width: 50%; /* Two cards per row for mobile */
+  padding: 0 10px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+  display: flex;
+  justify-content: center;
+}
+
+.col img {
+  width: 100%; /* Take the entire width of its container */
+  max-width: 100%; /* Ensure the image doesn't exceed its container width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.col img:hover {
+  transform: scale(1.05); /* Add hover effect for scaling */
+}
+
+.occTypes{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+
+.scrollContainer::-webkit-scrollbar {
+  width: 2px !important;
+  border-radius: 3px;
+  height: 8px;
+}
+
+.scrollContainer::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(121, 122, 168, 0.884) !important;
+  border-radius: 10px !important;
+}
+
+.scrollContainer::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(87, 89, 172, 0.884) !important;
+  border-radius: 5px !important;
+  background-color: #1A3643 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .carousel {
+    // height: calc(100vh - 10vh);
+    height: 90vh;
+    /* Fill viewport height minus 10vh for smaller screens */
+  }
+
+  .carouselSlide img {
+    height: 100%;
+    /* Fill the height of the container */
+    width: 100%;
+    /* Fill the width of the container */
+  }
+  .scrollingWordsBox{
+    font-size: 40px;
+    height: 4rem;
+    ul {
+      li {
+        height: 4rem;
+      }
+    }
+  }
+  
+
+  .carouselOverlay {
+    font-size: 18px;
+    /* Adjust font size for smaller screens */
+    padding: 15px;
+    /* Adjust padding for smaller screens */
+    justify-content: center;
+    /* Center text vertically */
+    padding-top: 30px;
+    /* Add top padding for text alignment */
+  }
+
+  .h1Txt {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .carouselTitle {
+    margin: 0;
+    font-size: 50px;
+    margin-bottom: 10%;
+    text-transform:uppercase !important;
+  }
+
+  .scrollDown {
+    bottom: 10px;
+  }
+
+  .scrollDown i {
+    font-size: 18px;
+  }
+
+  .buttonsContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .toggleButton {
+    margin: 0px 0;
+  }
+
+  .scrollIcon {
+    bottom: 10px;
+  }
+
+  .cardsContainer {
+    flex-direction: column;
+  }
+
+  .textSection,
+  .cardContainer {
+    flex: 1 1 100%;
+    width: 100%;
+    margin-bottom: 4%;
+
+  }
+
+  .textSection,
+  .cardContainer2 {
+    flex: 1 1 100%;
+    width: 100%;
+    padding: 4%;
+  }
+
+  .customCard {
+    flex: 0 0 calc(50% - -20%);
+    /* Two cards in a row with margin */
+    margin: 10px;
+    cursor: pointer;
+    /* Other card styles */
+  }
+
+  .viewMoreButton {
+    display: flex;
+    padding: 1cqb;
+    align-items: center;
+    gap: 5px;
+    border-radius: 50px;
+    border: 1px solid #5E5E5E;
+    align-self: flex-start;
+    font-size: 15px;
+    cursor: pointer;
+    justify-content: center !important;
+    margin: auto;
+    margin-top: 2%;
+  }
+
+  .cardContainer {
+    overflow-x: auto;
+    display: -webkit-inline-box;
+    // width: calc(100% + 20px);
+    /* Make the container wider to allow scrolling */
+    padding-bottom: 20px;
+    /* Add padding to avoid horizontal scrollbar overlap */
+  }
+
+  .cardContainer2 {
+    overflow-x: auto;
+    display: flex;
+    width: calc(100% + 20px);
+    /* Make the container wider to allow scrolling */
+    padding-bottom: 20px;
+    /* Add padding to avoid horizontal scrollbar overlap */
+  }
+
+  .cardImage {
+    height: 350px;
+  }
+  .descriptionTitle {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: -1%;
+  
+  }
+
+
+.cardTitle {
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.mainTitle {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.scrollButton {
+  position: absolute;
+  margin-top: 25%;
+  transform: translateY(-50%);
+  padding: 8px;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.7); /* Button background color */
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.scrollButton:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Button background color on hover */
+}
+
+.scrollButton:first-child {
+  left: 0;
+  margin-top: 45%;
+}
+
+.scrollButton:last-child {
+  right: 0;
+  margin-top: 45%;
+}
+
+.imageTitle {
+  font-size: 20px; 
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+  padding-bottom: 4%;
+  /* Smaller font size for title on smaller screens */
+}
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: -8%;
+}
+.imageDescription {
+  font-size: 15px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 8%;
+  background-color: #1A3643;
+  color: #fff;
+  font-family: Montserrat;
+  line-break: auto;
+  text-align: left;
+
+}
+
+.cardContainer3 {
+  flex: 1;
+  width: 100%;
+  overflow-x: scroll !important;
+  display: flex;
+  width: 100%;
+  padding-bottom: 20px;
+  display: grid;
+  justify-content: center;
+}
+.customCard3 {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.textSection1 {
+  align-items: center; /* Align items to the start for mobile screens */
+  text-align: center; /* Left align text for mobile screens */
+  padding: 4%;
+
+}
+.mainTitle1 {
+  font-size: 25px; /* Font size for smaller screens */
+}
+
+.descriptionTitle1 {
+  font-size: 18px; /* Font size for smaller screens */
+}
+
+
+.occationContaner {
+  padding: 2%;
+}
+.col {
+  flex: 0 0 50%; /* Two cards per row for mobile */
+  max-width: 50%; /* Two cards per row for mobile */
+}
+.occTypes{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  
+}
+}
+
+
+
+/* styles/VideoBackground.module.css */
+.videoContainer {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 10vh);
+  overflow: hidden;
+  display: flex;
+  overflow: hidden;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4) /* Adjust the overlay color and opacity */
+}
+
+.textContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+  .text {
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// parterner with us page
+
+// .imageContainer3{
+//   position: relative;
+//   border-radius: 20px;
+//   overflow: hidden;
+//   margin-bottom: 20px;
+//   background-image: url('../../public/joinusHome.svg');
+//   background-size: cover;
+//   background-position: center;
+// }
+
+
+// .imageOverlay {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   vertical-align: middle;
+//   background: rgba(0, 0, 0, 0.6);
+//   padding: 20px;
+//   border-top-right-radius: 65px;
+//   border-top-left-radius: 65px;
+//   border-bottom-left-radius: 40px;
+//   border-bottom-right-radius: 40px;
+// }
+
+// .joinstitle1 {
+//   color: white;
+//   font-size: 50px;
+//   margin-bottom: 10px;
+//   text-align: center;
+//   color: #fff;
+//   font-family: Montserrat;
+//   text-transform: capitalize;
+//   border-bottom: 2px solid white;
+// }
+
+// .joinstitle {
+//   color: white;
+//   font-size: 77px;
+//   margin-bottom: 10px;
+//   text-align: center;
+//   color: #fff;
+//   font-family: Montserrat;
+//   text-transform: capitalize;
+// }
+
+// .joinstitle3 {
+//   color: white;
+//   font-size: 26px;
+//   margin-bottom: 10px;
+//   font-weight: 400;
+//   text-align: center;
+//   color: #fff;
+//   font-family: Montserrat;
+//   text-transform: capitalize;
+//   margin-bottom: 5%;
+// }
+
+// .button {
+//   padding: 10px 20px;
+//   background-color: white;
+//   color: #000;
+//   border: none;
+//   border-radius: 5px;
+//   font-size: 26px;
+//   font-family: Montserrat;
+//   cursor: pointer;
+//   transition: background-color 0.3s ease-in-out;
+//   margin-bottom: 4%;
+// }
+
+
+.imageContainer3 {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  background-image: url('../../public/joinusHome.svg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh; /* Adjust height as needed */
+}
+
+.imageOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+}
+
+/* Adjust font sizes and styles as needed */
+.joinstitle1 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 10px;
+  font-family: Montserrat;
+
+}
+
+.joinstitle {
+  font-size:40px;
+  color: white;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  font-family: Montserrat;
+  font-weight: 500;
+
+}
+
+.joinstitle3 {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+
+}
+
+.button {
+  background-color: #fff;
+  color: black;
+  border: none;
+  font-family: Montserrat;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  align-self: center; /* Center button horizontally */
+  margin: 2%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .imageOverlay {
+    padding: 10px;
+  }
+
+  .joinstitle1 {
+    font-size: 1.2rem;
+  }
+
+  .joinstitle {
+    font-size: 2rem;
+  }
+
+  .joinstitle3 {
+    // font-size: 0.8rem;
+    font-size: 20px;
+  }
+
+  .button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+
+
+
+.button:hover {
+  background-color: #156fb1;
+  color: white;
+
+}
+
+// @media (max-width: 1080px) {
+
+
+//     .imageContainer3{
+//     position: relative;
+//     border-radius: 20px;
+//     overflow: hidden;
+//     margin-bottom: 20px;
+//     height: 500px;
+//     background-image: url('../../public/joinusHome.svg');
+//     background-size: cover;
+//     background-position: center;
+//   }
+  
+//   .imageOverlay {
+//     padding: 10px;
+//     border-top-right-radius: 30px;
+//     border-top-left-radius: 30px;
+//     border-bottom-left-radius: 0;
+//     border-bottom-right-radius: 0;
+//   }
+
+//   .joinstitle1,.joinstitle3{
+//     font-size: 20px;
+//   }
+//   .joinstitle{
+//     font-size: 25px;
+//   }
+
+//   .button {
+//     padding: 8px 16px;
+//   }
+// }
+
+.placeholderTxt{
+  font-weight: bold;
+  color: #0000008f;
+}

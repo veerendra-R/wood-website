@@ -1,0 +1,38 @@
+.ant-layout{
+    background-color: aqua;
+}
+.menuBar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.CarouselCon{
+    .ant-carousel{
+        height: 20vh;
+    }
+
+}
+.cardImage{
+    // display: flex;
+    width: 100% !important;
+    height: 100%;
+}
+.cardImageInmodule{
+    width: 98% !important;
+    height: 96% !important;
+}
+.metaData{
+    display: flex;
+    margin-top: 2%;
+}
+.MainTitle{
+    display: flex;
+    justify-content: center;
+}
+.filterBtns{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    // margin-right: -30%;
+    margin-left: 2%;
+}

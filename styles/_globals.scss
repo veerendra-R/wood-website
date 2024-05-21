@@ -1,0 +1,44 @@
+@import "~antd/dist/antd.css";
+@import '~@ant-design/charts/lib/plots/line';
+
+/* Other global styles */
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  .ant-picker-header-super-prev-btn,
+  .ant-picker-header-prev-btn,
+  .ant-picker-header-next-btn,
+  .ant-picker-header-super-next-btn {
+    color: #000 !important;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgb(255, 255, 255);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.mainFilter{
+  justify-content: center;
+  display:inline-grid;
+  width: -webkit-fill-available;
+  background-color: #000 !important;
+}

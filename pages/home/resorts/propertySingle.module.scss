@@ -1,0 +1,522 @@
+.titleTxt2{
+    display: flex;
+    justify-content: flex-start !important;
+    padding: 2%;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+.titleTxt3{
+  display: flex;
+  justify-content: flex-start !important;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2%;
+  // margin-top: -30%;
+  margin-bottom: 2%;
+  }
+  .titleTxt4{
+    display: flex;
+    justify-content: flex-start !important;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 2%;
+  }
+.descTxt{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding: 2%;
+    width: 70%;
+    height: 20vh;
+}
+.enquieryForm{
+  width: 25%;
+  justify-content: flex-end;
+  margin-left: 70%;
+  margin-top:-32%;
+  margin-bottom: -30%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1%;
+  height: 100%;
+}
+.priceTag{
+  display: flex;
+  justify-content: flex-end !important;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  // padding: 2%;
+  // margin-top: 5% !important;
+  vertical-align: middle !important;
+  }
+  .priceTitle{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2%;
+    line-height: normal;
+  }
+.amenitiesTags{
+  display: inline-block;
+  padding: 2%;
+  color: #565656;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 50px;
+  margin-top: -2%;
+}
+.houseRules{
+    display: flex;
+    padding: 2%;
+    color: #565656;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal 
+}
+.timings{
+    display: flex;
+    color: #565656;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    padding: 2%;
+    margin-top: -2%;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.footerImage {
+    position: relative;
+    background: url("../../../public/defaultLocImg.png");
+    height: 30vh;
+    padding: 4%;
+    width: 60%;
+    margin-left: 4%;
+    margin-right: 25%;
+    border-radius: 10px;
+  }
+
+  .footerImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    border-radius: 12px;
+  }
+  .footerImage .titleTxt4,
+  .footerImage .descTxt4 {
+    position: relative;
+    z-index: 1; 
+    color:#fff;
+    display: flex;
+    justify-content: center !important;
+  }
+  .footerDiv{
+    margin-top: 5%;
+  }
+.tabDiv{
+  width: 100%;
+}
+
+.priceDetails{
+  width: 100%;
+  height: 10vh;
+  display: block;
+  justify-content: space-between;
+  flex-shrink: 0;
+  border-radius: 10px;
+  color: white !important;
+  background: #1A3643;
+  margin-bottom: 2%;
+  padding: 2%;
+}
+.price2{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.price3{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.taxTxt{
+  margin-left: 10%;
+  margin-top: -1px;
+}
+.guetTxt{
+  margin-right: 10%
+}
+
+.imageTextDes{
+  padding: 2%;
+}
+.propertyTitleDes{
+  font-size: 30px;
+}
+.villaTypeDes{
+  font-size: 25px;
+}
+
+:where(.css-1adbn6x).ant-carousel .slick-dots-bottom{
+  display: none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 768px) { 
+
+    .tabDiv{
+        display: contents;
+        padding: 2%;
+        width: 98%;
+    }
+    .titleTxt2{
+        display: flex;
+        justify-content: flex-start !important;
+        padding: 2%;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    .titleTxt3{
+        display: flex;
+        justify-content: flex-start !important;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+      }
+      .titleTxt4{
+        display: flex;
+        justify-content: flex-start !important;
+        color: #000;
+        font-family: Montserrat;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        padding: 2%;
+      }
+    .descTxt{
+        color: #000;
+        font-family: Montserrat;
+        font-size: 15px;
+        width: 100%;
+        display: contents;
+        justify-content: flex-start;
+        font-style: normal;
+        font-weight: 200;
+        padding: 5%;
+    }
+    .enquieryForm{
+        display: flex;
+        width: 30%;
+        justify-content: flex-end;
+        margin-left: 70%;
+        margin-top: -15%;
+        background-color: white;
+        border-radius: 10px;
+        padding: 2%;
+    }
+    .amenitiesTags{
+        display: block;
+        padding: 2%;
+        color: #565656;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: -2%;
+        width: 100%;
+    }
+    .houseRules{
+        display: block;
+        padding: 2%;
+        color: #565656;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal 
+    }
+    .timings{
+        display: flex;
+        color: #565656;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: normal;
+        padding: 2%;
+        margin-top: -2%;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    .footerImage {
+        position: relative;
+        background: url("../../../public/defaultLocImg.png");
+        height: 15vh;
+        padding: 4%;
+        width: 100%;
+        margin-left: 4%;
+        border-radius: 10px;
+      }
+    
+      .footerImage::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        border-radius: 12px;
+      }
+      .footerImage .titleTxt4,
+      .footerImage .descTxt4 {
+        position: relative;
+        z-index: 1; 
+        margin-top: 10%;
+        color:#fff;
+        display: flex;
+        justify-content: center !important;
+        font-size: 20px;
+        vertical-align: middle;
+      }
+      .footerDiv{
+        margin-top: 5%;
+      }
+      .enquieryForm{
+        display: contents;;
+        width: 100%;
+        padding: 2%;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .priceDetails{
+      width: 100%;
+      height: 10vh;
+      display: block;
+      justify-content: space-between;
+      flex-shrink: 0;
+      border-radius: 10px;
+      color: white !important;
+      background: #1A3643;
+      margin-bottom: 2%;
+      margin-top: 8%;
+      padding: 2%;
+    }
+    .price2{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .price3{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+    .taxTxt{
+      margin-left: 10%;
+      margin-top: -1px;
+    }
+    .guetTxt{
+      margin-right: 10%
+    }
+    .mobileSection {
+      padding: 20px;
+    }
+    
+    .section {
+      margin-bottom: 20px;
+    }
+    
+    .sectionTitle {
+      font-family: Montserrat;
+      font-size: 22px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    
+    .mobileTitleTxt {
+      font-family: Montserrat;
+      font-size: 22px;
+      font-weight: 500;
+    }
+    
+    .mobileDescTxt {
+      font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 300;
+      margin-top: 10%;
+    }
+    
+    .mobileAmenities {
+      margin-top: 10px;
+    }
+    
+    .mobilePropertyTag {
+      margin-right: 8px;
+      margin-bottom: 8px;
+      font-family: Montserrat;
+    }
+    
+    .mobileTimings {
+      // font-family: Montserrat;
+      margin-top: 10px;
+    }
+    
+    .timingRow {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+    }
+    
+    .timingTitle {
+      font-weight: 500; /* Increased font weight for title */
+      font-size: 20px;
+    }
+    
+    .timingValue {
+      font-weight: 100; /* Normal font weight for value */
+      font-size: 20px;
+      margin-left: 8px; /* Adjust the spacing between title and value */
+    }
+    
+    
+    .mobileHouseRules {
+      font-family: Montserrat;
+      margin-top: 10px;
+    }
+    
+    .mobileHouseRuleTag {
+      font-family: Montserrat;
+      font-weight: 300;
+      margin-bottom: 8px;
+      width: fit-content;
+      max-width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .mobileHouseRules ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    
+    .mobileHouseRules li {
+      margin-bottom: 5px;
+      font-weight: 300;
+      font-family: Montserrat;
+    }
+    
+    .mobileFooterImage {
+      margin-top: 10px;
+    }
+    
+    .mobileFootersocialIcons {
+      font-size: 24px;
+      margin-top: 10%
+    }
+    
+    .mobileSocialIcons {
+      margin-right: 10px;
+      font-size: 24px;
+    }
+
+    .customDivider {
+      border-top: 0.1px solid #3333332c; /* Change color and style as desired */
+      margin: 16px 0; /* Adjust margin top and bottom */
+    }
+    .imageText {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .propertyTitle {
+      font-size: 24px;
+      font-weight: 500;
+    }
+    
+    .villaType {
+      font-size: 18px;
+      font-weight: 300;
+      color: #888; /* Adjust color as needed */
+    }
+    
+  }

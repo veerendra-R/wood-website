@@ -1,0 +1,261 @@
+.text1{
+    display: flex;
+    justify-content: center;
+}
+.adminCardsDiv{
+    display: flex;
+    padding: 2%;
+    width: 100%;
+    background-color: #fff;
+    }
+.filterOtions{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  gap: 20px;
+}
+
+/* Styles for card container */
+.cardContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0px;
+    overflow-y: auto;
+}
+
+/* Styles for custom card */
+.customCard {
+    flex: 0 0 calc(22% - 20px); /* Three cards in a row with margin */
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Clip overflowing elements */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for card image */
+.cardImageWrapper {
+  position: relative;
+  border-radius: 15px 15px 0 0; /* Rounded top corners for the image wrapper */
+  overflow: hidden; /* Clip overflowing elements */
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Styles for card content */
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  border-bottom-left-radius: 15px; /* Rounded bottom corners */
+  border-bottom-right-radius: 15px; /* Rounded bottom corners */
+  border-radius: 15px 15px 0 0;
+}
+
+.cardTitle {
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* Styles for additional details */
+.additionalDetails {
+  display: flex;
+  justify-content: space-around; /* Spacing between amenities and BHK */
+  padding: 8px; /* Padding for amenities and BHK */
+  background-color: #fff; /* White background */
+  border-top-left-radius: 15px; /* Rounded corners */
+  border-top-right-radius: 15px; /* Rounded corners */
+  border-top: 1px solid #ccc; /* Divider line between image and details */
+  border-top-left-radius: 0; /* Flattened top left corner */
+  border-top-right-radius: 0;
+}
+
+.bhk,
+.amenities {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 0 0 15px 15px;
+}
+
+.bhk img,
+.amenities img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.bhkTxt,
+.amenitiesTxt {
+  color: black; /* Text color */
+}
+
+.actionItems{
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    margin: 5%;
+}
+
+.adminContainer{
+  background-color: #fff;
+  padding: 5%
+}
+.loginForm {
+  max-width: 100%;
+  margin: auto;
+  margin-top: 50%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  background: transparent;
+  backdrop-filter: blur(10px);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .formItem {
+    margin-bottom: 15px;
+  }
+
+  .formButton {
+    width: 100%;
+    background-color: #1890ff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .formButton:hover {
+    background-color: #096dd9;
+  }
+}
+.maindiv{
+  display: flex;
+  background-color: #fff;
+  justify-content: center;
+}
+
+.btnCont{
+  display: flex;
+  justify-content: center;
+.submitBtn{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  border-radius: 12px;
+  background-color: #1A3643;
+  color: #fff;
+  font-family: Montserrat;
+  cursor: pointer;
+  font-size: larger;
+  border: 2px solid white;
+  width: 80px;
+}
+}
+.titleTxt{
+  display: flex !important;
+  justify-content: center !important;
+  width: 100%;
+  font-family: Montserrat;
+  gap: 5px;
+}
+
+
+.adminPropertyDiv{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile{
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  color: white;
+}
+
+.propertyComponents{
+  display: flex;
+}
+
+
+@media screen and (max-width: 768px) {
+    //   .customCard {
+    //     flex: 0 0 calc(100% - 20px); /* Single card per row */
+    //     margin: 10px 0;
+    //   }
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff !important;
+    
+      }
+    
+      .filterSection {
+        width: 100%;
+        height: auto;
+        position: relative;
+        top: initial;
+        margin-bottom: 20px;
+      }
+    
+      .cardContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #fff !important;
+    
+      }
+    
+      .customCard {
+        flex: 0 0 calc(80% - 10px); /* Two cards in a row with margin */
+      }
+    }
+    
+    /* Media query for tablet-sized screens */
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      .customCard {
+        flex: 0 0 calc(50% - 20px); /* Two cards in a row */
+      }
+    }
+    
+    /* Media query for larger screens */
+    @media screen and (min-width: 1025px) {
+    //   .customCard {
+    //     flex: 0 0 calc(33.3333% - 20px); /* Three cards in a row */
+    //   }
+    .filterSection {
+        height: 100vh;;
+      }
+    
+      .cardContainer {
+        width: 100%;
+        background-color: #fff !important;
+        padding: 2%;
+      }
+    
+      .customCard {
+        flex: 1 0 calc(30%); /* Four cards in a row with margin */
+      }
+    }

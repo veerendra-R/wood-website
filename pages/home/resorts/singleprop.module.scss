@@ -1,0 +1,373 @@
+/* PropertyCarousel.module.css */
+
+
+
+
+
+
+.carouselContainer {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 80vh; /* Set height to 50% of the viewport height */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+  }
+  
+  .carouselImage {
+    width: 100%;
+    height: 80vh; /* Fill the available height */
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    object-position: center; /* Center the image */
+    transition: transform 0.5s ease-in-out;
+    position: relative;
+    display: flex;
+  }
+  .carouselContainer::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%; /* Adjust height for the powdered black effect */
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) !important; /* Adjust opacity as needed */
+    z-index:2;
+}
+  
+  .carouselWrapper {
+    position: relative;
+  }
+  .propertyDetails {
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    color: white; /* Add background color with transparency */
+  }
+  
+  
+  .propertyDetails h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    z-index: 2;
+    font-family: Montserrat;
+  }
+  
+  .propertyDetails p {
+    font-size: 20px;
+    color:white; /* Adjust text color for better visibility */
+    z-index: 2;
+    font-family: Montserrat;
+}
+  
+  .navigationButtons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: xxx-large;
+  }
+  
+  .navigationButtons button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navigationButtons button:hover {
+    color: #000;
+  }
+  .propertyDescriptionSecection1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  /* Adjust the styles for the "About Property" section */
+  .propertyDescriptionSecection1 .aboutPropertySection {
+    width: 70%; 
+    padding: 2%;
+  }
+  
+  .propertyDescriptionSecection1 .titleTxt2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .propertyDescriptionSecection1 .descTxt {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Adjust the styles for the inquiry form */
+  .propertyDescriptionSecection1 .enquieryForm {
+    width: 30%;
+    padding: 2%;
+    background-color: #FFF;
+    border-radius: 20px;
+  }
+  
+  .propertyDescriptionSecection1 .priceDetails {
+    margin-top: 20px;
+    color: #FFF;
+    background-color: #1A3643;
+
+  }
+  .propertyDescriptionSecection1 .titleTxt2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .propertyDescriptionSecection1 .titleTxt3 {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .propertyDescriptionSecection1 .descTxt {
+    font-size: larger;
+    color: #666;
+    margin-bottom: 20px;
+    padding: 2%;
+    
+  }
+  
+  .propertyDescriptionSecection1 .amenitiesTags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    gap: 10px; /* Adjust spacing between tags */
+  }
+  
+  .propertyDescriptionSecection1 .propertyTag {
+    flex-basis: calc(33.33% - 10px); /* Three tags per row with 10px gap */
+    max-width: calc(33.33% - 10px); /* Ensure three tags per row */
+    margin-bottom: 10px; /* Adjust spacing between rows */
+    padding: 2%;
+  }
+  
+  .propertyDescriptionSecection1 .houseRules {
+    padding-left: 0;
+    padding: 2%;
+    overflow-x: hidden;
+  }
+  
+  
+  .propertyDescriptionSecection1 .timings {
+    font-size: 25px;
+    color: #666;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    margin-top: 2%;
+    padding: 2%;
+    gap: 20px;
+
+  }
+  .propertyDescriptionSecection1 .locationImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-image: url("../../../public/defaultLocImg.png");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 80%;
+    border-radius: 20px;
+    margin: 2%;
+    overflow: hidden; /* Ensure text visibility within the container */
+  }
+  
+  .propertyDescriptionSecection1 .locationImg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+  }
+  
+  .propertyDescriptionSecection1 .locationTxt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    z-index: 1; /* Ensure text appears above the overlay */
+  }
+  
+  
+  .propertyDescriptionSecection1 .abtPropfootersocialIcons {
+    gap: 20%;
+    font-size: 24px;
+    color: #666;
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    padding: 4%;
+  }
+  
+  .propertyDescriptionSecection1 .abtPropfootersocialIcons a {
+    color: inherit;
+  }
+  
+  /* Styles for the inquiry form section */
+  .propertyDescriptionSecection1 .enquieryForm {
+    width: 30%;
+  }
+  
+  .propertyDescriptionSecection1 .priceDetails {
+    margin-bottom: 20px;
+    background-color: #1A3643;
+    color: #FFF;
+    border-radius: 10px;
+    height: 8vh;
+    display: grid;
+    padding: 2%;
+  }
+  
+  .propertyDescriptionSecection1 .price2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+  }
+  
+  .propertyDescriptionSecection1 .price3 {
+    font-size: 16px;
+    color: #FFF;
+    justify-content: space-between;
+  }
+
+  .checkinTimeTxt{
+    color: #606060;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .timeTxt{
+    color: #000;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Enable horizontal scrolling for mobile */
+  @media screen and (max-width: 768px) {
+    .carouselContainer {
+      overflow-x: hidden;
+      white-space: nowrap;
+      height: auto; /* Revert to auto height for mobile */
+    }
+    .propertyDetails{
+      padding: 10px;
+    }
+    .propertyDetails h2 {
+        font-size: 20px;
+      }
+      
+      .propertyDetails p {
+        font-size: 15px;
+    }
+  
+    .carouselImage {
+      display: inline-block;
+      width: 100%;
+      vertical-align: top;
+      object-fit: cover;
+      object-position: center;
+      object-position: center;
+      height: 40vh;
+      position: relative;
+    }
+    .navigationButtons {
+    //   display: none; /* Hide navigation buttons for horizontal scrolling */
+    }
+    .propertyDescriptionSecection1 {
+        flex-direction: column; /* Change to a column layout */
+        align-items: stretch;
+      }
+    
+      .propertyDescriptionSecection1 .aboutPropertySection,
+      .propertyDescriptionSecection1 .enquieryForm {
+        width: 100%;
+        margin-right: 0;
+        font-family: 'Montserrat';
+      }
+      .propertyDescriptionSecection1 .locationImg {
+        height: 150px; /* Adjust the height for mobile screens */
+      }
+      .propertyDescriptionSecection1 .locationTxt {
+        font-size: 15px;
+      }
+      .propertyDescriptionSecection1 .titleTxt2,
+      .propertyDescriptionSecection1 .titleTxt3 {
+        font-size: 20px;
+        margin-top: 15px;
+        font-family: 'Montserrat';
+      }
+    
+      .propertyDescriptionSecection1 .descTxt,
+      .propertyDescriptionSecection1 .amenitiesTags,
+      .propertyDescriptionSecection1 .houseRules li,
+      .propertyDescriptionSecection1 .timings,
+      .propertyDescriptionSecection1 .abtPropfootersocialIcons {
+        font-size: 20px;
+        display: flex;
+        justify-content: left;
+        margin-top: 2%;
+        // gap: 10%;
+        padding: 4%;
+        width: 100%;
+        overflow-x: scroll;
+        font-family: 'Montserrat';
+
+      }
+    
+
+
+  }
+  

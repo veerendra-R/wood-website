@@ -1,0 +1,28 @@
+.spinnerMainCls {
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    background: #000;
+    height: 500vh;
+    opacity: 0.3;
+  }
+  
+  .spinnerImageDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+  }
+  
+  .skLoadingSpinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50% !important;
+    height: 50% !important;
+    min-width: 50% !important;
+    min-height: 50% !important;
+  }

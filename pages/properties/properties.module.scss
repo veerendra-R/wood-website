@@ -1,0 +1,335 @@
+.footerImage {
+    position: relative;
+    background: url("../../public/propertiesHeaderImage.png");
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    background-repeat: round;
+    width: 100%;
+  }
+  
+  .footerImage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  }
+  .footerImage .titleTxt4,
+  .footerImage .descTxt4 {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: relative;
+    padding: 5%;
+    z-index: 1; 
+    text-align: center;
+    width: 100%; 
+  }
+
+
+
+.aboutImage {
+  position: relative;
+  background: url("../../public/aboutusCover.png");
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+}
+
+// .aboutImage::before {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+//   border-top-right-radius: 15px;
+//   border-top-left-radius: 15px;
+// }
+// .aboutImage .titleTxt4,
+// .aboutImage .descTxt4 {
+//   color: #FFF;
+//   text-align: center;
+//   font-family: Montserrat;
+//   font-size: 50px;
+//   font-style: normal;
+//   font-weight: 500;
+//   line-height: normal;
+//   position: relative;
+//   padding: 5%;
+//   z-index: 1; 
+//   text-align: center;
+//   width: 100%; 
+// }
+
+.filterTitleMain{
+  color: black;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  padding: 5%;
+  z-index: 1; 
+  text-align: center;
+  width: 100%; 
+}
+.formTxt{
+  display: flex;
+  justify-content: center !important;
+  color: #999;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%; 
+}
+.formLable{
+  color: #404040;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.applyFilterBtn{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.propertyCards{
+  display: flex;
+  padding: 5%;
+  overflow-y: scroll;
+}
+
+.footerDiv{
+  z-index: 1 !important;
+}
+
+
+
+
+
+.contactImage {
+  position: relative;
+  background: url("../../public/contactUsCover.svg");
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  width: 100%;
+}
+
+.contactImage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.contactImage .titleTxt4,
+.contactImage .descTxt4 {
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  padding: 5%;
+  z-index: 1; 
+  text-align: center;
+  width: 100%; 
+}
+
+.insidePropertyTitle{
+  display: flex;
+  justify-content: center !important;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+}
+.cardDesc{
+  display: flex;
+  padding: 2%;
+  justify-content:space-around;
+}
+.bhkTxt{
+  margin-left: -10%;
+}
+
+
+
+  @media (max-width: 768px) {  
+    .propertyCards{
+        display: grid;
+        margin-top: 10%;
+        padding: 5%;
+        overflow-y: scroll;
+      }
+      .footerImage {
+        position: relative;
+        background: url("../../public/propertiesHeaderImage.png");
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+        background-repeat: round;
+        width: 100%;
+      }
+      
+      .footerImage::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+      .footerImage .titleTxt4,
+      .footerImage .descTxt4 {
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: relative;
+        padding: 5%;
+        z-index: 1; 
+        text-align: center;
+        width: 100%; 
+      }
+
+      .aboutImage {
+        position: relative;
+        background: url("../../public/aboutusCover.png");
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+        background-repeat: round;
+        width: 100%;
+      }
+      
+      // .aboutImage::before {
+      //   content: "";
+      //   position: absolute;
+      //   top: 0;
+      //   left: 0;
+      //   right: 0;
+      //   bottom: 0;
+      //   background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+      //   border-bottom-left-radius: 15px !important;
+      //   border-bottom-right-radius: 15px !important;
+      // }
+      // .aboutImage .titleTxt4,
+      // .aboutImage .descTxt4 {
+      //   color: #FFF !important;
+      //   text-align: center;
+      //   font-family: Montserrat;
+      //   font-size: 40px;
+      //   font-style: normal;
+      //   font-weight: 500;
+      //   line-height: normal;
+      //   position: relative;
+      //   padding: 5%;
+      //   margin-top: 25%;
+      //   z-index: 1; 
+      //   text-align: center;
+      //   width: 100%; 
+      // }
+      .contactImage{
+        position: relative;
+        background: url("../../public//contactUsCover.svg");
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+        background-repeat: round;
+        width: 100%;
+      }
+      
+      .contactImage::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+        border-bottom-left-radius: 15px !important;
+        border-bottom-right-radius: 15px !important;
+      }
+      .contactImage .titleTxt4,
+      .contactImage .descTxt4 {
+        color: #FFF !important;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: relative;
+        padding: 5%;
+        margin-top: 25%;
+        z-index: 1; 
+        text-align: center;
+        width: 100%; 
+      }
+
+      
+    
+      .filterTitleMain{
+        color: black;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        position: relative;
+        padding: 5%;
+        z-index: 1; 
+        text-align: center;
+        width: 100%; 
+      }
+
+
+      .insidePropertyTitle{
+        display: flex;
+        justify-content: center !important;
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 15px;
+      }
+      .cardDesc{
+        display: flex;
+        padding: 2%;
+        justify-content:space-around;
+      }
+      .bhkTxt{
+        margin-left: -10%;
+      }
+      
+}

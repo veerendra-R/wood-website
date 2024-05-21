@@ -1,0 +1,249 @@
+.mainContainer {
+  min-height: 1vh !important;
+  overflow-x: scroll !important;
+}
+
+.collapseButton {
+  color: #2e3192 !important;
+}
+
+.footerStyle {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  background-color: #fff;
+  margin-top: 10%;
+}
+.mainLand {
+  // background: red;
+  // height: 100vh;
+  // background-image: url(../../public/bg_3.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // filter: brightness(95%);
+  // margin-top: -10%;
+  
+}
+.mainLand2{
+  // background-color: #fff;
+  // height: 100vh;
+  // background-image: url(../../public/bg_3.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: center; /* Center the background image */
+  filter: brightness(95%);
+}
+
+.mainMenu {
+  display: flex;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.60) !important;
+  backdrop-filter: blur(7px) !important;
+  justify-content: flex-end;
+  color: black;
+}
+.cmgMain{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center; 
+  margin-top: 7%;
+}
+.cmgTitle{
+  text-align:center;
+  // text-transform: ;
+  color: #fff; 
+  font-size: 40px;
+  font-family: Pacifico;
+  margin-top: 20%;
+
+}
+.roller{
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden; 
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbfbfc;
+}
+.spareTime{
+  font-size: 2rem;
+  width: 100%;
+  letter-spacing: 1rem;
+  margin-top: 0;
+  color: #fff;
+  
+}
+.roller .rollerText {
+  display: block;
+  flex-direction: column-reverse;
+  align-items:center;
+  font-size: 2rem;
+  position: absolute;
+  top: 0;
+  animation: slide 5s infinite;  
+  font-family: "Vina Sans";
+}
+@keyframes slide {
+  0%{
+    top:0;
+  }
+  25%{
+    top: -4rem;    
+  }
+  50%{
+    top: -8rem;
+  }
+  72.5%{
+    top: -12.25rem;
+  }
+}
+.menuItems{
+  color: #000;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+
+
+.mobileMenuWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  background-color: #fff; /* Add your desired background color */
+}
+
+.mobileMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  pointer-events: none;
+}
+
+.mobileLogo {
+  cursor: pointer;
+}
+
+.menuIconDiv {
+  cursor: pointer;
+  pointer-events: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+
+  
+  .mainContainer {
+    min-height: auto !important;
+    overflow-x: auto !important;
+  }
+
+  .collapseButton {
+    color: #2e3192 !important;
+  }
+
+  .footerStyle {
+    margin-top: 5%;
+  }
+
+  .mainLand {
+    // background: red;
+    // height: 90vh;
+    margin-top: -10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    filter: brightness(95%);
+  }
+  .mainLand2{
+    background-color: #fff;
+    // height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; /* Center the background image */
+    filter: brightness(95%);
+    margin-top: -0%;
+  }
+  
+  .cmgMain {
+    margin-top: 65%;
+  }
+
+  .cmgTitle {
+    font-size: 1rem; /* Adjusted font size */
+    text-align:center;
+    // text-transform: ;
+    color: #fff; 
+    font-size: 25px;
+    font-family: Pacifico;
+  }
+
+  .roller {
+    height: 3rem; /* Adjusted height */
+    line-height: 3rem; /* Adjusted line height */
+  }
+
+  .spareTime {
+    font-size: 1.5rem; /* Adjusted font size */
+    letter-spacing: 0.5rem; /* Adjusted letter spacing */
+  }
+
+  .roller .rollerText {
+    font-size: 1.5rem; /* Adjusted font size */
+    animation-duration: 4s; /* Adjusted animation duration */
+    }
+}
+
+.mobileMenu{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 16px;
+  width: 100% !important;
+  height: 10vh;
+  cursor: pointer !important;
+  :where(.css-dev-only-do-not-override-1adbn6x).ant-affix{
+    height: 5vh;
+  }
+}
+.mobileLogo{
+  margin-top: 2%;
+  cursor: pointer !important;
+}
+.menuIconDiv{
+  margin-left: 20%;
+    cursor: pointer !important;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,297 @@
+/* YourComponent.css */
+
+/* Styles for main container */
+.mainContainer {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px;
+    background-color: #fff !important;
+}
+.propertiesLayout{
+    display: grid !important;
+    text-align: center !important;
+    gap: 10px;
+    position: sticky !important;
+}
+/* Styles for filter section */
+.filterSection {
+  width: 20%;
+  height: 100%;
+  position: sticky!important;
+  display: flex;
+  padding-top: 10%;
+  justify-content: center!important;
+  top: 0;
+  overflow-y: auto;
+  background-color: #fff;
+  margin-bottom: 2%;
+}
+
+/* Example styles for filter elements */
+.filterTitleMain {
+    font-size: 18px;
+    font-weight: bold;
+  /* Other styles for filter title */
+}
+
+.radioBtns {
+  /* Styles for radio buttons */
+  .ant-radio-group-solid :where(.css-dev-only-do-not-override-1adbn6x).ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover{
+    background-color: #1A3643;
+  }
+}
+
+/* Styles for card container */
+.cardContainer {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+/* Styles for custom card */
+.customCard {
+    flex:0 1 calc(30%); /* Three cards in a row with margin */
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 15px; /* Rounded corners */
+    overflow: hidden; /* Clip overflowing elements */
+    background-color: #fff; /* White background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for card image */
+.cardImageWrapper {
+  position: relative;
+  border-radius: 15px 15px 0 0; /* Rounded top corners for the image wrapper */
+  overflow: hidden; /* Clip overflowing elements */
+}
+
+.cardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Styles for card content */
+.cardContent {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  background: linear-gradient(to top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+  border-bottom-left-radius: 15px; /* Rounded bottom corners */
+  border-bottom-right-radius: 15px; /* Rounded bottom corners */
+  border-radius: 15px 15px 0 0;
+}
+
+.cardTitle {
+  margin-bottom: 8px;
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+/* Styles for additional details */
+.additionalDetails {
+  display: flex;
+  justify-content: space-around; /* Spacing between amenities and BHK */
+  padding: 8px; /* Padding for amenities and BHK */
+  background-color: #fff; /* White background */
+  border-top-left-radius: 15px; /* Rounded corners */
+  border-top-right-radius: 15px; /* Rounded corners */
+  border-top: 1px solid #ccc; /* Divider line between image and details */
+  border-top-left-radius: 0; /* Flattened top left corner */
+  border-top-right-radius: 0;
+}
+
+.bhk,
+.amenities {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 0 0 15px 15px;
+}
+
+.bhk img,
+.amenities img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.bhkTxt,
+.amenitiesTxt {
+  color: black; /* Text color */
+}
+
+.applyFilterBtn{
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    cursor: pointer;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #1A3643;
+    backdrop-filter: blur(17px);
+  }
+
+
+  .customToggleButtonGroup {
+    display: flex;
+  }
+  
+  .toggleButton {
+    flex: 1;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: white;
+    transition: background-color 0.3s; /* Add transition for smoother color change */
+  }
+  
+  .toggleButton.active {
+    background-color: #1A3643;
+    color: white;
+    font-family: Montserrat;
+  }
+  
+  /* Left button */
+  .toggleButton:first-child {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+  }
+  
+  /* Right button */
+  .toggleButton:last-child {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+//   .customCard {
+//     flex: 0 0 calc(100% - 20px); /* Single card per row */
+//     margin: 10px 0;
+//   }
+.mainContainer {
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff !important;
+
+  }
+  
+
+  .filterSection {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: initial;
+    margin-bottom: 20px;
+  }
+
+  .cardContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff !important;
+
+  }
+
+  .customCard {
+    flex: 0 0 calc(80% - 10px); /* Two cards in a row with margin */
+  }
+
+  // .customToggleButtonGroup {
+  //   flex-direction: column; /* Stack buttons vertically on smaller screens */
+  // }
+
+  // .toggleButton {
+  //   margin-bottom: 8px; /* Add some spacing between stacked buttons */
+  //   border-radius: 12px; /* Apply border-radius to all buttons in stacked mode */
+  // }
+
+  // .toggleButton:first-child {
+  //   border-top-left-radius: 12px;
+  //   border-bottom-left-radius: 0;
+  // }
+
+  // .toggleButton:last-child {
+  //   border-top-right-radius: 0;
+  //   border-bottom-right-radius: 12px;
+  // }
+}
+
+/* Media query for tablet-sized screens */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .customCard {
+    flex: 1 0 calc(30%); /* Two cards in a row */
+  }
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 1025px) {
+//   .customCard {
+//     flex: 0 0 calc(33.3333% - 20px); /* Three cards in a row */
+//   }
+.filterSection {
+    height: 100%;;
+  }
+
+  .cardContainer {
+    width: 100%;
+    background-color: #fff !important;
+    padding: 2%;
+  }
+
+  // .customCard {
+  //   flex: 1 0 calc(30%); /* Four cards in a row with margin */
+  // }
+}
+.pagination{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding-left: 4%;
+  padding: 2%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .pagination{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-left: 0%;
+    padding: 2%;
+  }
+}
